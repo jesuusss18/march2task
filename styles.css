@@ -1,0 +1,181 @@
+.body-class {
+    background-color: lightblue; 
+    color: #4177b6; 
+    font-family: 'Poppins',Arial, sans-serif;
+}
+
+.header-class {
+    background-color: #4177b6; 
+    color: #FFFFFF; 
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.nav-class {
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    padding: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+.nav-link-class {
+    color: #0066ff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 10px;
+    font-family: 'Poppins', Arial, sans-serif;
+
+}
+
+.nav-link-class.active {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.section-title-class {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family: 'Poppins', Arial, sans-serif;
+
+}
+
+.text-class {
+    color: black;
+    text-align: center;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.title-class {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Poppins', Arial, sans-serif;
+
+}
+
+.image-class {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    border: 5px solid #0066ff;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.blockquote-class {
+    background: #ffffff;
+    padding: 15px;
+    border-left: 5px solid #094eb6;
+    font-style: italic;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 5px;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.cite-class {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    font-weight: bold;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.faq-section-class {
+    background-color: #6aa0ec;
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+}
+
+.faq-class {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-family: 'Poppins', Arial, sans-serif;
+
+}
+
+.faq-question-class {
+    font-weight: bold;
+    color: #0066ff;
+    font-family: 'Poppins', Arial, sans-serif;
+
+}
+
+.form-class {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    text-align: center; 
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.input-class {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-class {
+    background-color: #0066ff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto; 
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.button-class:hover {
+    background-color: #004bb5;
+}
+
+.footer-class {
+    background-color: #244264;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-class, .section-title-class {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 15px;
+    }
+  
+    .form-class {
+        width: 90%;
+    }
+  
+    .input-class {
+        width: 95%;
+    }
+}
